@@ -1,4 +1,4 @@
-# Deep Inception: Hypnotize LLM to Be Jailbreaker
+# Deep Inception: Hypnotize Large Language Model to Be Jailbreaker
 
 [![arXiv](https://img.shields.io/badge/cs.ML-arXiv%3A2311.03191-b31b1b)](https://arxiv.org/abs/2311.03191)
 </div>
