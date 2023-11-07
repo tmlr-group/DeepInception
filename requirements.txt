@@ -3,5 +3,4 @@ fschat==0.2.31
 openai==0.27.8
 pandas==1.4.1
 pytz==2022.7
-torch==1.13.0
 transformers==4.34.1
