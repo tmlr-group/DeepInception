@@ -53,6 +53,6 @@ See `main.py` for all of the arguments and descriptions.
 
 ```
 
-## Acknowledgement
+## Reference Code
 
-We adopt the code and subset of harmful behaviors from [PAIR](https://github.com/patrickrchao/JailbreakingLLMs).
+PAIR https://github.com/patrickrchao/JailbreakingLLMs
