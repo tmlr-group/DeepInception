@@ -1,6 +1,8 @@
-# Deep Inception: Hypnotize Large Language Model to Be Jailbreaker
+<h1 align="center"> Deep Inception: Hypnotize Large Language Model to Be Jailbreaker </h1>
 
-[![arXiv](https://img.shields.io/badge/cs.ML-arXiv%3A2311.03191-b31b1b)](https://arxiv.org/abs/2311.03191)
+<p align="center"> 
+    <a href="https://arxiv.org/abs/2311.03191"><img src="https://img.shields.io/badge/cs.ML-arXiv%3A2311.03191-b31b1b" alt="Paper"></a>
+</p>
 </div>
 
 ## Abstract
