@@ -12,6 +12,7 @@ if __name__ == '__main__':
     parser.add_argument(
         "--target-model",
         default = "vicuna",
+        choices=["vicuna", 'falcon', 'llama2',"gpt-3.5-turbo", "gpt-4"],
         help = "Name of target model.",
     )
     parser.add_argument(
@@ -24,7 +25,7 @@ if __name__ == '__main__':
         "--exp_name",
         type = str,
         default = "main",
-        choices=['main', 'abl_c', 'abl_layer', 'multi_scene', 'abl_fig6_4'],
+        choices=['main', 'abl_c', 'abl_layer', 'multi_scene', 'abl_fig6_4', 'further_q'],
         help = "Experiment file name"
     )
 
@@ -39,13 +40,17 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     
-    f = open(f'./res/data{args.exp_name}.json',) 
+    f = open(f'./res/data_{args.exp_name}.json',) 
     datas = json.load(f) 
     f.close() 
     results = [{} for _ in range(len(datas))]
 
     for idx, data in enumerate(datas):
-        questions = [data['inception_attack']] + data['questions']
+        if args.exp_name in ['main', 'further_q']:
+            questions = [data['inception_attack']] + data['questions']
+        else:
+            questions = data['questions']
+
         targetLM = load_attack_and_target_models(args)
         results[idx]['topic'] = data['topic']
         # Get target responses
@@ -53,6 +58,7 @@ if __name__ == '__main__':
         for question in questions:
             target_response_list = targetLM.get_response(question, args.defense)
             results[idx]['qA_pairs'].append({'Q': question, 'A': target_response_list})
+            print(target_response_list)
 
         del targetLM
     

@@ -3,8 +3,8 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 import common
-from config import (FALCON_PATH, LLAMA_PATH, MPT_PATH, TARGET_TEMP,
-                    TARGET_TOP_P, VICUNA_PATH)
+from config import (FALCON_PATH, LLAMA_PATH, TARGET_TEMP, TARGET_TOP_P,
+                    VICUNA_PATH)
 from language_models import GPT, HuggingFace
 
 
