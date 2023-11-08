@@ -3,6 +3,7 @@
 <p align="center"> 
     <a href="https://deepinception.github.io/"><img src="https://img.shields.io/badge/Project Website-deepinception" alt="Website"></a>
     <a href="https://arxiv.org/abs/2311.03191"><img src="https://img.shields.io/badge/cs.ML-arXiv%3A2311.03191-b31b1b" alt="Paper"></a>
+    <img src="https://badges.toozhao.com/badges/01HEPEKFHAV8CP6JTE7JWYGVV3/blue.svg" alt="Count">
 </p>
 </div>
 
