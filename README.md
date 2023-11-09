@@ -1,6 +1,6 @@
-<div align="center"><img src="imgs/Icon.png" width="200"/></div>
+<div align="center"><img src="imgs/banner.png" width="400"/></div>
 
-<h1 align="center"> Deep Inception: Hypnotize Large Language Model to Be Jailbreaker </h1>
+<h1 align="center"> DeepInception: Hypnotize Large Language Model to Be Jailbreaker </h1>
 
 <p align="center"> 
     <a href="https://deepinception.github.io/"><img src="https://img.shields.io/badge/Project Website-deepinception" alt="Website"></a>
