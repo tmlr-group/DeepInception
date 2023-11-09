@@ -1,4 +1,4 @@
-<div align="center"><img src="imgs/banner.png" width="400"/></div>
+<div align="center"><img src="imgs/banner.png" width="700"/></div>
 
 <h1 align="center"> DeepInception: Hypnotize Large Language Model to Be Jailbreaker </h1>
 
