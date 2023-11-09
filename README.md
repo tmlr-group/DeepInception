@@ -1,3 +1,5 @@
+<div align="center"><img src="imgs/Icon.png" width="200"/></div>
+
 <h1 align="center"> Deep Inception: Hypnotize Large Language Model to Be Jailbreaker </h1>
 
 <p align="center"> 
