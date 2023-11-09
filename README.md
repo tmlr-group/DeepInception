@@ -1,4 +1,3 @@
-<h1 align="center"> DeepInception: Hypnotize Large Language Model to Be Jailbreaker </h1>
 <div align="center"><img src="imgs/Icon.png" width="200"/></div>
 
 <h1 align="center"> Deep Inception: Hypnotize Large Language Model to Be Jailbreaker </h1>
@@ -6,16 +5,11 @@
 <p align="center"> 
     <a href="https://deepinception.github.io/"><img src="https://img.shields.io/badge/Project Website-deepinception" alt="Website"></a>
     <a href="https://arxiv.org/abs/2311.03191"><img src="https://img.shields.io/badge/cs.ML-arXiv%3A2311.03191-b31b1b" alt="Paper"></a>
-    <img src="https://badges.toozhao.com/badges/01HEPEKFHAV8CP6JTE7JWYGVV3/blue.svg" alt="Count">
 </p>
 </div>
 
 ## Abstract
-Despite remarkable success in various applications, large language models (LLMs) are vulnerable to adversarial jailbreaks that make the safety guardrails void. However, previous studies for jailbreaks usually resort to brute-force optimization or extrapolations of a high computation cost, which might not be practical or effective. 
-
-In this work, inspired by the Milgram experiment that individuals can harm another person if they are told to do so by an authoritative figure, we disclose a lightweight method, termed as DeepInception, which can easily hypnotize LLM to be a jailbreaker and unlock its misusing risks. Specifically, DeepInception leverages the personification ability of LLM to construct a novel nested scene to behave, which realizes an adaptive way to escape the usage control in a normal scenario and provides the possibility for further direct jailbreaks. 
-
-Empirically, we conduct comprehensive experiments to show its efficacy. Our DeepInception can achieve competitive jailbreak success rates with previous counterparts and realize a continuous jailbreak in subsequent interactions, which reveals the critical weakness of self-losing on both open/closed-source LLMs like Falcon, Vicuna, Llama-2, and GPT-3.5/4/4V. Our investigation appeals that people should pay more attention to the safety aspects of LLMs and a stronger defense against their misuse risks.
+Despite remarkable success in various applications, large language models (LLMs) are vulnerable to adversarial jailbreaks that make the safety guardrails void. However, previous studies for jailbreaks usually resort to brute-force optimization or extrapolations of a high computation cost, which might not be practical or effective. In this paper, inspired by the Milgram experiment that individuals can harm another person if they are told to do so by an authoritative figure, we disclose a lightweight method, termed as DeepInception, which can easily hypnotize LLM to be a jailbreaker and unlock its misusing risks. Specifically, DeepInception leverages the personification ability of LLM to construct a novel nested scene to behave, which realizes an adaptive way to escape the usage control in a normal scenario and provides the possibility for further direct jailbreaks. Empirically, we conduct comprehensive experiments to show its efficacy. Our DeepInception can achieve competitive jailbreak success rates with previous counterparts and realize a continuous jailbreak in subsequent interactions, which reveals the critical weakness of self-losing on both open/closed-source LLMs like Falcon, Vicuna, Llama-2, and GPT-3.5/4/4V. Our investigation appeals that people should pay more attention to the safety aspects of LLMs and a stronger defense against their misuse risks.
 
 ## Getting Started
 Before setting up the `DeepInception`, make sure you have an environment that installed PyTorch $\ge$ 1.10 with GPU support.
@@ -35,7 +29,7 @@ Please follow the model instruction from [huggingface](https://huggingface.co/) 
 
 
 ## Run experiments
-To run `DeepInception`, use this script template:
+To run `DeepInception`, run
 ```
 python3 main.py --target-model [TARGET MODEL] --exp_name [EXPERIMENT NAME] --DEFENSE [DEFENSE TYPE]
 ```
@@ -50,17 +44,17 @@ See `main.py` for all of the arguments and descriptions.
 
 
 ## Citation
-```bibtex
+```
 @article{
-li2023deepinception,
-title={DeepInception: Hypnotize Large Language Model to Be Jailbreaker}, 
-author={Xuan Li, Zhanke Zhou, Jianing Zhu, Jiangchao Yao, Tongliang Liu, Bo Han},
-journal={arXiv preprint arXiv:2311.03191},
-year={2023}
+    li2023deepinception,
+    title={DeepInception: Hypnotize Large Language Model to Be Jailbreaker}, 
+    author={Xuan Li, Zhanke Zhou, Jianing Zhu, Jiangchao Yao, Tongliang Liu, Bo Han},
+    journal={arXiv preprint arXiv:2311.03191},
+    year={2023}
 }
 
 ```
 
-## Reference
+## Reference Code
 
-- [PAIR](https://github.com/patrickrchao/JailbreakingLLMs)
+PAIR https://github.com/patrickrchao/JailbreakingLLMs
