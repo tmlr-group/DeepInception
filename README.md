@@ -36,7 +36,7 @@ Despite remarkable success in various applications, large language models (LLMs)
 ## Ready-to-Use Prompt
 <p align="center">
     <img src="./imgs/carbon.png" alt>
-    <em>A general template of DeepIncetion. An instance is given as follows.</em>
+    <em>A general template of DeepInception. An instance is given as follows.</em>
 </p>
 
 <p>
