@@ -60,7 +60,7 @@ export OPENAI_API_KEY=[YOUR_API_KEY_HERE]
 
 If you would like to run `DeepInception` with Vicuna, Llama, and Falcon locally, modify `config.py` with the proper path of these three models. 
 
-Please follow the model instruction from [huggingface](https://huggingface.co/) to download the models, inlcuding [Vicuna](https://huggingface.co/lmsys/vicuna-7b-v1.5-16k), [Llama-2](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf) and [Falcon](https://huggingface.co/tiiuae/falcon-7b-instruct).
+Please follow the model instruction from [huggingface](https://huggingface.co/) to download the models, including [Vicuna](https://huggingface.co/lmsys/vicuna-7b-v1.5-16k), [Llama-2](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf) and [Falcon](https://huggingface.co/tiiuae/falcon-7b-instruct).
 
 
 ## Run experiments
