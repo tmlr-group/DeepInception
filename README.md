@@ -80,14 +80,12 @@ See `main.py` for all of the arguments and descriptions.
 
 ## Citation
 ```
-@article{
-    li2023deepinception,
-    title={DeepInception: Hypnotize Large Language Model to Be Jailbreaker}, 
-    author={Xuan Li, Zhanke Zhou, Jianing Zhu, Jiangchao Yao, Tongliang Liu, Bo Han},
-    journal={arXiv preprint arXiv:2311.03191},
-    year={2023}
+@article{li2023deepinception,
+  title={Deepinception: Hypnotize large language model to be jailbreaker},
+  author={Li, Xuan and Zhou, Zhanke and Zhu, Jianing and Yao, Jiangchao and Liu, Tongliang and Han, Bo},
+  journal={arXiv preprint arXiv:2311.03191},
+  year={2023}
 }
-
 ```
 
 ## Reference Code
